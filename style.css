@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arima:wght@100..700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Barlow Condensed", serif;
+    background-color: black;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-top {
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 2%;
+    align-items: center;
+}
+
+.lists {
+    display: flex;
+}
+
+.lists li {
+    margin: 2rem;
+}
+
+.lists li a {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.buttons-header .fa-magnifying-glass {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.buttons-header button {
+    margin-left: 2rem;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color: #ffff;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.buttons-header button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.buttons-header .fa-gem {
+    margin-left: 5px;
+    color: red;
+}
+
+.buttons-header .fa-user {
+    margin-left: 5px;
+
+}
+
+.buttons-header .fa-bell {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.buttons-header .fa-bars {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
